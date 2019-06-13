@@ -9,6 +9,7 @@ import javax.annotation.Resource;
 @RestController
 public class DeptControllerConsumer {
 
-    @Autowired
+    public static final String REST_URL_PREFIX = "http://MYSPRINGCLOUD-DEPT";
+    @Resource
     private RestTemplate restTemplate;
 }
