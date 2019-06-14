@@ -12,6 +12,7 @@
         <module>my-spring-cloud-provider-dept-8001</module>
         <module>my-spring-cloud-consumer-dept-80</module>
         <module>my-spring-cloud-eureka-7001</module>
+        <module>my-spring-cloud-consumer-dept-feign</module>
     </modules>
 
     <packaging>pom</packaging>
