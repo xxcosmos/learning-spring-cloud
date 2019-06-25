@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="me.xiaoyuu.me.xiaoyuu.myspringcloud.dao.DeptDao">
+<mapper namespace="me.xiaoyuu.myspringcloud.dao.DeptDao">
     <select id="findById" resultType="me.xiaoyuu.me.xiaoyuu.myspringcloud.entity.Dept" parameterType="java.lang.Long">
         select dept_no, dname, db_source
         from dept

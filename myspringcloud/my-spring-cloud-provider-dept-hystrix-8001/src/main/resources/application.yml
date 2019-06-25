@@ -27,7 +27,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka
   instance:
-    instance-id: me.xiaoyuu.myspringcloud-dept8001 #服务名称修改
+    instance-id: me.xiaoyuu.myspringcloud-dept8001-hystrix #服务名称修改
     prefer-ip-address: true
 
 info:
